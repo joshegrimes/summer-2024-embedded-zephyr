@@ -1,0 +1,28 @@
+empty_file.o: \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/misc/empty_file.c \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/boards/arm/rospi_env/rospi_env.dts \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/dts/arm/st/g4/stm32g431Xb.dtsi \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/dts/common/mem.h \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/dts/arm/st/g4/stm32g431.dtsi \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/dts/arm/st/g4/stm32g4.dtsi \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/dts/arm/armv7-m.dtsi \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/dts/common/skeleton.dtsi \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/include/zephyr/dt-bindings/clock/stm32g4_clock.h \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/include/zephyr/dt-bindings/clock/stm32_common_clocks.h \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/include/zephyr/dt-bindings/i2c/i2c.h \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/include/zephyr/dt-bindings/gpio/gpio.h \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/include/zephyr/dt-bindings/pwm/pwm.h \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/include/zephyr/dt-bindings/adc/adc.h \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/include/zephyr/dt-bindings/pwm/stm32_pwm.h \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/include/zephyr/dt-bindings/dma/stm32_dma.h \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/include/zephyr/dt-bindings/adc/stm32l4_adc.h \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/include/zephyr/dt-bindings/adc/stm32_adc.h \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/include/zephyr/dt-bindings/reset/stm32g4_l4_5_reset.h \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/include/zephyr/dt-bindings/reset/stm32-common.h \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/dts/common/freq.h \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/modules/hal/stm32/dts/st/g4/stm32g431c(6-8-b)ux-pinctrl.dtsi \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/include/zephyr/dt-bindings/pinctrl/stm32-pinctrl.h \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/include/zephyr/dt-bindings/pinctrl/stm32-pinctrl-common.h \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/include/zephyr/dt-bindings/led/worldsemi_ws2812c.h \
+ C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/zephyr/include/zephyr/dt-bindings/led/led.h

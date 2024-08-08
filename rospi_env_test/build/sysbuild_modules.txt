@@ -1,0 +1,1 @@
+"mcuboot":"C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/bootloader/mcuboot":"C:/Users/joshe/Documents/Summer2024EmbeddedWork/STM32F4DISCO/external/bootloader/mcuboot/boot/zephyr/sysbuild"

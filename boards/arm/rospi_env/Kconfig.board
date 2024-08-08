@@ -1,0 +1,8 @@
+# ROSPi Env Board Configuration, based off of:
+# "STM32G431RB Nucleo board configuration
+# Copyright (c) 2019 Richard Osterloh <richard.osterloh@gmail.com>
+# SPDX-License-Identifier: Apache-2.0"
+
+config BOARD_ROSPI_ENV
+	bool "ROSPI ENV"
+	depends on SOC_STM32G431XX

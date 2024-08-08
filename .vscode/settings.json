@@ -1,0 +1,256 @@
+{
+    "zephyr-ide.projects": {
+        "blinky": {
+            "rel_path": "blinky",
+            "name": "blinky",
+            "buildConfigs": {
+                "build\\stm32f4_disco": {
+                    "relBoardDir": "boards",
+                    "board": "stm32f4_disco",
+                    "relBoardSubDir": "c:\\Users\\joshe\\Documents\\Summer2024EmbeddedWork\\STM32F4DISCO\\boards\\arm\\stm32f4_disco",
+                    "name": "build\\stm32f4_disco",
+                    "confFiles": {
+                        "config": [],
+                        "extraConfig": [],
+                        "overlay": [],
+                        "extraOverlay": []
+                    },
+                    "runners": {
+                        "openocd": {
+                            "runner": "openocd",
+                            "name": "openocd",
+                            "args": ""
+                        }
+                    },
+                    "activeRunner": "openocd",
+                    "westBuildCMakeArgs": " -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y "
+                }
+            },
+            "confFiles": {
+                "config": [],
+                "extraConfig": [],
+                "overlay": [],
+                "extraOverlay": []
+            },
+            "activeBuildConfig": "build\\stm32f4_disco"
+        },
+        "button_led": {
+            "rel_path": "button_led",
+            "name": "button_led",
+            "buildConfigs": {
+                "build\\stm32f4_disco": {
+                    "relBoardDir": "boards",
+                    "board": "stm32f4_disco",
+                    "relBoardSubDir": "c:\\Users\\joshe\\Documents\\Summer2024EmbeddedWork\\STM32F4DISCO\\boards\\arm\\stm32f4_disco",
+                    "name": "build\\stm32f4_disco",
+                    "confFiles": {
+                        "config": [],
+                        "extraConfig": [],
+                        "overlay": [],
+                        "extraOverlay": []
+                    },
+                    "runners": {
+                        "openocd": {
+                            "runner": "openocd",
+                            "name": "openocd",
+                            "args": ""
+                        }
+                    },
+                    "activeRunner": "openocd",
+                    "westBuildCMakeArgs": " -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y "
+                }
+            },
+            "confFiles": {
+                "config": [],
+                "extraConfig": [],
+                "overlay": [],
+                "extraOverlay": []
+            },
+            "activeBuildConfig": "build\\stm32f4_disco"
+        },
+        "button_led_multi": {
+            "rel_path": "button_led_multi",
+            "name": "button_led_multi",
+            "buildConfigs": {
+                "build\\stm32f4_disco": {
+                    "relBoardDir": "boards",
+                    "board": "stm32f4_disco",
+                    "relBoardSubDir": "c:\\Users\\joshe\\Documents\\Summer2024EmbeddedWork\\STM32F4DISCO\\boards\\arm\\stm32f4_disco",
+                    "name": "build\\stm32f4_disco",
+                    "confFiles": {
+                        "config": [],
+                        "extraConfig": [],
+                        "overlay": [],
+                        "extraOverlay": []
+                    },
+                    "runners": {
+                        "openocd": {
+                            "runner": "openocd",
+                            "name": "openocd",
+                            "args": ""
+                        }
+                    },
+                    "activeRunner": "openocd",
+                    "westBuildCMakeArgs": " -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y "
+                }
+            },
+            "confFiles": {
+                "config": [],
+                "extraConfig": [],
+                "overlay": [],
+                "extraOverlay": []
+            },
+            "activeBuildConfig": "build\\stm32f4_disco"
+        },
+        "accel": {
+            "rel_path": "accel",
+            "name": "accel",
+            "buildConfigs": {
+                "build\\stm32f4_disco": {
+                    "relBoardDir": "boards",
+                    "board": "stm32f4_disco",
+                    "relBoardSubDir": "c:\\Users\\joshe\\Documents\\Summer2024EmbeddedWork\\STM32F4DISCO\\boards\\arm\\stm32f4_disco",
+                    "name": "build\\stm32f4_disco",
+                    "confFiles": {
+                        "config": [],
+                        "extraConfig": [],
+                        "overlay": [],
+                        "extraOverlay": [
+                            "boards\\arm\\stm32f4_disco\\stm32f4_disco.overlay"
+                        ]
+                    },
+                    "runners": {
+                        "openocd": {
+                            "runner": "openocd",
+                            "name": "openocd",
+                            "args": ""
+                        }
+                    },
+                    "activeRunner": "openocd",
+                    "westBuildCMakeArgs": " -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y "
+                }
+            },
+            "confFiles": {
+                "config": [],
+                "extraConfig": [],
+                "overlay": [],
+                "extraOverlay": []
+            },
+            "activeBuildConfig": "build\\stm32f4_disco"
+        },
+        "bme280": {
+            "rel_path": "bme280",
+            "name": "bme280",
+            "buildConfigs": {
+                "build\\stm32f4_disco": {
+                    "relBoardDir": "boards",
+                    "board": "stm32f4_disco",
+                    "relBoardSubDir": "c:\\Users\\joshe\\Documents\\Summer2024EmbeddedWork\\STM32F4DISCO\\boards\\arm\\stm32f4_disco",
+                    "name": "build\\stm32f4_disco",
+                    "westBuildArgs": "",
+                    "westBuildCMakeArgs": " -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y ",
+                    "confFiles": {
+                        "config": [],
+                        "extraConfig": [],
+                        "overlay": [],
+                        "extraOverlay": [
+                            "boards\\arm\\stm32f4_disco\\stm32f4_disco.overlay"
+                        ]
+                    },
+                    "runners": {
+                        "openocd": {
+                            "runner": "openocd",
+                            "name": "openocd",
+                            "args": ""
+                        }
+                    },
+                    "activeRunner": "openocd"
+                }
+            },
+            "confFiles": {
+                "config": [],
+                "extraConfig": [],
+                "overlay": [],
+                "extraOverlay": []
+            },
+            "activeBuildConfig": "build\\stm32f4_disco"
+        },
+        "rospi_env_test": {
+            "rel_path": "rospi_env_test",
+            "name": "rospi_env_test",
+            "buildConfigs": {
+                "build\\rospi_env": {
+                    "relBoardDir": "boards",
+                    "board": "rospi_env",
+                    "relBoardSubDir": "c:\\Users\\joshe\\Documents\\Summer2024EmbeddedWork\\STM32F4DISCO\\boards\\arm\\rospi_env",
+                    "name": "build\\rospi_env",
+                    "westBuildArgs": "",
+                    "westBuildCMakeArgs": " -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y ",
+                    "confFiles": {
+                        "config": [],
+                        "extraConfig": [],
+                        "overlay": [],
+                        "extraOverlay": []
+                    },
+                    "runners": {
+                        "openocd": {
+                            "runner": "openocd",
+                            "name": "openocd",
+                            "args": ""
+                        }
+                    },
+                    "activeRunner": "openocd"
+                }
+            },
+            "confFiles": {
+                "config": [],
+                "extraConfig": [],
+                "overlay": [],
+                "extraOverlay": []
+            },
+            "activeBuildConfig": "build\\rospi_env"
+        },
+        "rospi_env_app": {
+            "rel_path": "rospi_env_app",
+            "name": "rospi_env_app",
+            "buildConfigs": {
+                "build\\rospi_env": {
+                    "relBoardDir": "boards",
+                    "board": "rospi_env",
+                    "relBoardSubDir": "c:\\Users\\joshe\\Documents\\Summer2024EmbeddedWork\\STM32F4DISCO\\boards\\arm\\rospi_env",
+                    "name": "build\\rospi_env",
+                    "westBuildArgs": "",
+                    "westBuildCMakeArgs": " -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y ",
+                    "confFiles": {
+                        "config": [],
+                        "extraConfig": [],
+                        "overlay": [],
+                        "extraOverlay": []
+                    },
+                    "runners": {
+                        "openocd": {
+                            "runner": "openocd",
+                            "name": "openocd",
+                            "args": ""
+                        }
+                    },
+                    "activeRunner": "openocd"
+                }
+            },
+            "confFiles": {
+                "config": [],
+                "extraConfig": [],
+                "overlay": [],
+                "extraOverlay": []
+            },
+            "activeBuildConfig": "build\\rospi_env"
+        }
+    },
+    "files.associations": {
+        "stdio.h": "c",
+        "util.h": "c",
+        "kernel.h": "c",
+        "device.h": "c"
+    },
+    "C_Cpp.default.compileCommands": "build/compile_commands.json"
+}

@@ -1,0 +1,21 @@
+identifier: rospi_env
+name: ROSPi Env
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 32
+flash: 128
+supported:
+  - i2c
+  - gpio
+  - pwm
+  - adc
+  - usb device
+  - usb
+  - counter
+  - spi
+  - can
+vendor: SNSR

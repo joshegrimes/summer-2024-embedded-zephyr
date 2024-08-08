@@ -1,0 +1,58 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Zephyr IDE: Debug Select",
+            "cwd": "${workspaceFolder}",
+            "gdbPath": "${command:zephyr-ide.get-gdb-path}",
+            "executable": "${command:zephyr-ide.select-active-build-path}/zephyr/zephyr.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "servertype": "openocd",
+            "interface": "swd",
+            "device": "STM32G431",
+            "configFiles": ["external/zephyr/boards/arm/nucleo_g431rb/support/openocd.cfg"],
+            "preLaunchCommands": ["monitor rtt enbable"]
+        },
+        {
+            "name": "Zephyr IDE: Debug",
+            "cwd": "${workspaceFolder}",
+            "gdbPath": "${command:zephyr-ide.get-gdb-path}",
+            "executable": "${command:zephyr-ide.select-active-build-path}/zephyr/zephyr.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "servertype": "openocd",
+            "interface": "swd",
+            "device": "STM32G431",
+            "configFiles": ["${workspaceRoot}/boards/arm/rospi_env/support/openocd.cfg"],
+            "showDevDebugOutput": "parsed",
+            "serverArgs": ["-c", "adapter speed 1000"],
+            "overrideResetCommands": [],
+            "overrideLaunchCommands": [
+            "cd rospi_env_app/build/rospi_env/zephyr",
+            "file zephyr.elf",
+            "monitor reset halt",
+            "load",
+            "set output-radix 16"]
+        },
+        {
+            "name": "Zephyr IDE: Attach",
+            "cwd": "${workspaceFolder}",
+            "gdbPath": "${command:zephyr-ide.get-gdb-path}",
+            "executable": "${command:zephyr-ide.get-active-build-path}/zephyr/zephyr.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "servertype": "openocd",
+            "interface": "swd",
+            "device": "STM32G431",
+            "configFiles": ["external/zephyr/boards/arm/nucleo_g431rb/support/openocd.cfg"],
+            "preLaunchCommands": ["monitor rtt enbable"]
+        }
+    ]
+}
